@@ -1,0 +1,7 @@
+= Web user interface (UI)
+:icons: font
+:numbered:
+:source-highlighter: highlightjs
+
+== Overview
+See all the tasks that you can complete in {ProductName} by using web UI.

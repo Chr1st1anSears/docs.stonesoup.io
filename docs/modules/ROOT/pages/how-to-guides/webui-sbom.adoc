@@ -1,4 +1,4 @@
-= Download SBOMs
+= SBOMs
 
 :toc: left
 :icons: font
@@ -6,19 +6,19 @@
 :source-highlighter: highlightjs
 
 == Software Bill of Materials
-A software bill of materials (SBOM) provides greater transparency for your software supply chain. In {ProductName}, an SBOM lists all the software libraries that a xref:../glossary/index.adoc#_component[component] uses. Those libraries may enable specific functionality, facilitate development, or serve some other purpose. 
+A software bill of materials (SBOM) provides greater transparency for your software supply chain. In {ProductName}, an SBOM is a list of all the software libraries that a xref:../glossary/index.adoc#_component[component] uses. Those libraries might enable specific functionality, facilitate development, or serve some other purpose. 
 
-You can use an SBOM to better understand your software’s composition, identify vulnerabilities, and assess the potential impact of any security issues that may arise. You may also need to provide your customers with a component’s SBOM to comply with cybersecurity regulations. 
+You can use an SBOM to better understand the composition of your software, identify vulnerabilities, and assess the potential impact of any security issues that might arise. You might also need to provide your customers with an SBOM to comply with cybersecurity regulations. 
 
 == Downloading an SBOM
 
-Currently, {ProductName} requires you to download the SBOM by running a CLI command. This means you need to access {ProductName} through your CLI, and you must install an additional CLI tool. We apologize for this inconvenience. However, the {ProductName} web UI still accelerates the process of downloading an SBOM, and in the future, you will be able to download the SBOM directly through the web UI. 
+Currently, you must complete the last step of this process in your CLI. You need to have access to {ProductName} in your CLI, and you must install an additional CLI tool. We apologize for this inconvenience. However, using the web UI still accelerates this process.  
 
 *Prerequisites*
 
 * Login to the {ProductName} web UI
 
-* Login to {ProductName} xref:../cli/getting_started_in_cli.adoc[through the CLI].
+* Login to {ProductName} xref:../cli/getting_started_in_cli.adoc[in your CLI].
 
 * Install the link:https://docs.sigstore.dev/cosign/installation/[Cosign] CLI tool.
 
@@ -43,7 +43,7 @@ image::sbom/sbom-text-to-paste.png[alt=Command to copy]
 . In the CLI, paste the command and run it.
 
 +
-.. Example:
+.Example:
 
 +
 [source]
@@ -52,7 +52,12 @@ $ cosign download sbom quay.io/redhat-appstudio/user-workload@sha256:<output omi
 ----
 
 +
-.. Cosign prints a warning about the authenticity of the SBOM, since it is unsigned. You can still use this SBOM for standard business processes, like providing an SBOM to your customers. And in the future, {ProductName} will produce signed SBOMs. However, do not use this unsigned SBOM as a legal document. 
+.. Because  the SBOM is unsigned, Cosign displays a warning about its authenticity. You can still use this SBOM for standard business processes, like providing an SBOM to your customers. 
++
+[IMPORTANT]
+====
+Do not use this unsigned SBOM as a legal document. 
+====
 
 +
 [source]
@@ -63,7 +68,7 @@ or verify its signature using 'cosign verify --key <key path> --attachment sbom 
 ----
 
 +
-.. To view and use the SBOM more easily, you may want to redirect the output:
+.. (Optional) To view the full SBOM in a searchable format, you can redirect the output:
 
 +
 [source]
@@ -71,15 +76,17 @@ or verify its signature using 'cosign verify --key <key path> --attachment sbom 
 $ cosign download sbom quay.io/redhat-appstudio/user-workload@sha256:<output omitted> > sbom.txt
 ----
 
-== Understanding the SBOM
-In the SBOM, as this sample excerpt shows, you can find the following information about each library the component uses:
+== Reading the SBOM
+In any SBOM, you can find the following information about each library the component uses:
 
-. Its author or publisher
-. Its name
-. Its version
-. Its licenses
+. Author or publisher
+. Name
+. Version
+. Licenses
 
-This information helps you verify that individual libraries are safely-sourced, updated, and compliant. 
+You can use this information to verify that each library is safely sourced, updated, and compliant.
+
+Example SBOM
 
 [source]
 ----
@@ -115,4 +122,4 @@ This information helps you verify that individual libraries are safely-sourced, 
 ----
 
 == Additional resources
-* xref:../cli/cli-sbom.adoc[Download SBOMs in the CLI]
+* xref:../cli/cli-sbom.adoc[SBOMs in the CLI]
