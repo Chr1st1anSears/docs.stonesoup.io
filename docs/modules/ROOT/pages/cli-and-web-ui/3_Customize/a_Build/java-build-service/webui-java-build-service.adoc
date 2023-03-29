@@ -1,0 +1,20 @@
+= Java build service
+
+== JVM build service
+The JVM build service enhances your Java builds by providing the following features:
+
+* A local cache of Maven artifacts to speed up build times
+
+* A software bill of materials (SBOM) based on artifact tracking to find dependencies in your final image
+
+* The ability to rebuild Java dependencies from the source so that you can be sure of your dependencies' provenance
+
+Currently, you must configure standard Java builds in the CLI, which you can perform in either of the following situations:
+
+* When you have xref:cli/3_customize/java-build-service/proc_enabled_java_dependencies.adoc[enabled dependencies rebuild]
+
+* When you have xref:cli/3_customize/java-build-service/proc_disabled_java_dependencies.adoc[disabled dependencies rebuild]
+
+== Additional resources
+
+For information about the components that you use when configuring standard Java builds with enabled dependencies, see xref:concepts/java-build-service/java-build-service-components.adoc[Java build service components].

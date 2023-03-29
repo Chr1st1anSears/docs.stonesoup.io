@@ -1,0 +1,41 @@
+* Web UI
+** Onboard
+*** xref:cli-and-web-ui/1_Onboard/webui_component_deployment_lifecycle.adoc[Component deployment lifecycle]
+*** xref:cli-and-web-ui/1_Onboard/roles_permissions/web-ui-roles_permissions.adoc[Permissions and roles]
+
+** Secure
+*** xref:cli-and-web-ui/2_Secure/enterprise_contract/webui_ec.adoc[Enterprise contract]
+*** xref:cli-and-web-ui/2_Secure/webui-sbom.adoc[SBOMs] 
+
+
+** Customize
+
+*** Build 
+**** xref:cli-and-web-ui/3_Customize/a_Build/java-build-service/webui-java-build-service.adoc[Java build service]
+***** xref:cli-and-web-ui/3_Customize/a_Build/java-build-service/components/webui-components.adoc[Java build service components]
+**** xref:cli-and-web-ui/3_Customize/a_Build/RenovateBot/webui-index.adoc[RenovateBot]
+***** xref:cli-and-web-ui/3_Customize/a_Build/RenovateBot/webui-configuring.adoc[Configuring RenovateBot].
+**** xref:cli-and-web-ui/3_Customize/a_Build/build_service/webui_build_service.adoc[Build service] 
+
+*** Test
+**** xref:cli-and-web-ui/3_Customize/b_Test/overview/webui-overview.adoc[Overview of test components]
+**** xref:cli-and-web-ui/3_Customize/b_Test/surface/webui_tests.adoc[Sanity tests]
+
+*** Deploy
+**** xref:cli-and-web-ui/3_Customize/c_Deploy/i_environments/index/webui-index.adoc[Environments]
+**** xref:cli-and-web-ui/3_Customize/c_Deploy/i_environments/webui_proc_creating_static_environment.adoc[Creating a static environment]
+//Need documentation for creating and configuring environments 
+**** xref:cli-and-web-ui/3_Customize/c_Deploy/ii_release-services/overview/webui-overview.adoc[Release services]
+**** xref:cli-and-web-ui/3_Customize/c_Deploy/webui-delete_application.adoc[Deleting an application]
+
+////
+Need documentation for:
+*product security, custom tests (a record of all tests, like what we have for sanity tests)
+*Creating tests (need documentation)
+*Configuring tests (need documentation)
+////
+
+////
+I'm commenting out this xref for now because Burr said this page is currently unsupported. --Christian (csears@redhat.com), 2/16/2023
+***** xref:cli/3_Customize/c_Deploy/ii_release-services/proc_release_application.adoc[Releasing an application]
+////
