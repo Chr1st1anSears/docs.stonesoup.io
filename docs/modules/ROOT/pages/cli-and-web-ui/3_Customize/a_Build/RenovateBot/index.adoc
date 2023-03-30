@@ -48,6 +48,6 @@ You can also update `renovate.json` with link:https://docs.renovatebot.com/confi
 
 == Additional information
 
-See an example in the xref:how-to-guides/configuring_renovatebot.adoc[Configuring RenovateBot] guide.
+See an example in the xref:cli-and-web-ui/3_Customize/a_Build/RenovateBot/configuring_renovatebot.adoc[Configuring RenovateBot] guide.
 
 

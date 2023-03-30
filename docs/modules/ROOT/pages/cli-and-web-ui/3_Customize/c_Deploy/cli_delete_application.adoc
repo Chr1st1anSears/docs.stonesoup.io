@@ -20,4 +20,4 @@ oc delete application/<the-application-name>
 ----
 
 == Additional resources
-For information about deleting an application from UI, refer to xref:how-to-guides/delete_application.adoc[Deleting an application from UI].
+For information about deleting an application from UI, refer to xref:cli-and-web-ui/3_Customize/c_Deploy/webui-delete_application.adoc[Deleting an application from UI].

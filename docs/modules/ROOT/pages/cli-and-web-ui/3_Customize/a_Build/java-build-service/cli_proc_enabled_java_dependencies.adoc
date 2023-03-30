@@ -299,6 +299,6 @@ additionalDownloads: <5>
 
 == Additional resources
 
-* For information about Java build service components, see xref:concepts/java-build-service/java-build-service-components.adoc[Java build service components].
+* For information about Java build service components, see xref:cli-and-web-ui/3_Customize/a_Build/java-build-service/components/cli-components.adoc[Java build service components].
 
-* For more information, see xref:concepts/java-build-service/java-build-service.adoc[Java build service].
+* For more information, see xref:cli-and-web-ui/3_Customize/a_Build/java-build-service/cli-java-build-service.adoc[Java build service].

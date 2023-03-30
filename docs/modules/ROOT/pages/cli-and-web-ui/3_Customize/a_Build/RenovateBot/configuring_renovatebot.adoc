@@ -3,7 +3,7 @@
 :numbered:
 :source-highlighter: highlightjs
 
-xref:concepts/RenovateBot/index.adoc[RenovateBot] has many link:https://docs.renovatebot.com/configuration-options[configuration options]. This guide gives an example of how to configure your RenovateBot with the `reviewers` configuration option. The `reviewers` option automatically adds a user or user group to the reviewer field when RenovateBot creates a pull request.
+xref:cli-and-web-ui/3_Customize/a_Build/RenovateBot/index.adoc[RenovateBot] has many link:https://docs.renovatebot.com/configuration-options[configuration options]. This guide gives an example of how to configure your RenovateBot with the `reviewers` configuration option. The `reviewers` option automatically adds a user or user group to the reviewer field when RenovateBot creates a pull request.
 
 .*Prerequisites*
 

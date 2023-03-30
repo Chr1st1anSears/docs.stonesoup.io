@@ -23,6 +23,5 @@ To learn more about {ProductName} EC, see the following pages:
 
 To learn about other {ProductName} streams that help you with your containerized development needs, see the following pages:
 
-* xref:concepts/testing_applications/index.adoc[Application testing]
-* xref:concepts/release-services/con_release-services-overview.adoc[Release strategy]
-* xref:concepts/pipelines/index.adoc[Pipelines]
+* xref:cli-and-web-ui/3_Customize/b_Test/overview/con_test-overview.adoc[Application testing]
+* xref:cli-and-web-ui/3_Customize/c_Deploy/ii_release-services/overview/con_release-services-overview.adoc[Release strategy]

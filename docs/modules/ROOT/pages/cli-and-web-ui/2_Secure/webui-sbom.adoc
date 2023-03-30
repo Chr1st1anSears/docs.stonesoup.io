@@ -18,7 +18,7 @@ Currently, you must complete the last step of this process in your CLI. You need
 
 * Login to the {ProductName} web UI
 
-* Login to {ProductName} xref:../cli/getting_started_in_cli.adoc[in your CLI].
+* Login to {ProductName} xref:cli-and-web-ui/1_Onboard/cli_getting_started.adoc[in your CLI].
 
 * Install the link:https://docs.sigstore.dev/cosign/installation/[Cosign] CLI tool.
 
@@ -122,4 +122,4 @@ Example SBOM
 ----
 
 == Additional resources
-* xref:../cli/cli-sbom.adoc[SBOMs in the CLI]
+* xref:cli-and-web-ui/2_Secure/cli-sbom.adoc[SBOMs in the CLI]

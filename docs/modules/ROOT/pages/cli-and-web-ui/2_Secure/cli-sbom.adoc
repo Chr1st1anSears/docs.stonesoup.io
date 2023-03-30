@@ -18,7 +18,7 @@ You can use an SBOM to better understand the composition of your software, ident
 
 * Install the link:https://stedolan.github.io/jq/download/[jq] CLI tool.
 
-* xref:cli/getting_started_in_cli.adoc[Login] to {ProductName}.
+* xref:cli-and-web-ui/1_Onboard/cli_getting_started.adoc[Login] to {ProductName}.
 
 *Procedure*
 
@@ -137,4 +137,4 @@ Example SBOM
 ----
 
 == Additional resources
-* xref:../how-to-guides/webui-sbom.adoc[SBOMs in the web UI]
+* xref:cli-and-web-ui/2_Secure/webui-sbom.adoc[SBOMs in the web UI]

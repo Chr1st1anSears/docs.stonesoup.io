@@ -19,4 +19,4 @@ WARNING: If you delete an application permanently, you delete all the components
 NOTE: You can also delete an application by selecting *Actions > Delete Application*.
 
 == Additional Resources
-For information about deleting an application from CLI, refer to xref:cli/delete_application.adoc[Deleting an application from CLI].
+For information about deleting an application from CLI, refer to xref:cli-and-web-ui/3_Customize/c_Deploy/cli_delete_application.adoc[Deleting an application from CLI].

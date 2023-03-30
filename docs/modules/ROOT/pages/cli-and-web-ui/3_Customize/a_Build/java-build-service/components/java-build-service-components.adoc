@@ -91,4 +91,4 @@ If you have an artifact com.acme.gizmo:gizmo-core:1.0.0.Final you can place the 
 * */build-info/com/acme/gizo/_version/1.0.0.Final* - Contains information about a specific version of a specific group id
 
 == Additional resources
-For more information, see xref:concepts/java-build-service/java-build-service.adoc[Java build service].
+For more information, see xref:cli-and-web-ui/3_Customize/a_Build/java-build-service/cli-java-build-service.adoc[Java build service].
