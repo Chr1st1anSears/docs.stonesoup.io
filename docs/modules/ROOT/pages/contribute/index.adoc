@@ -1,1 +1,7 @@
-This page displays the information about how you can contribute to the documentation.
+= Contribute
+
+You can contribute to this documentation by selecting `Edit this Page`, just beneath the search bar in the banner of these documents. This will take you to the source docs on GitHub, where you can propose specific changes.
+
+When you have finished making your suggested changes to a document, be sure to select `Create a *new branch* for this commit and start a pull request` at the bottom of the GitHub page. Then, give your pull request a name and select `Propose changes.`
+
+We appreciate any edits that you suggest!

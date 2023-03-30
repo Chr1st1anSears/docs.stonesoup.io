@@ -10,7 +10,6 @@ Welcome to the {ProductName} documentation!
 
 You can use {ProductName} to enable continuous integration and continuous development (CI/CD) for your applications in a matter of minutes. You can also use {ProductName} to secure your software supply chain by reaching SLSA level 3 standards. And you can customize how {ProductName} builds, tests, and deploys containerized applications.  
 
-{ProductName} is the “upstream” project for Red Hat Trusted Application Pipeline, which is an enterprise-ready version of {ProductName}. Both projects are in their early days, so their differences are currently negligible.
 
 == Why use these documents?
 
