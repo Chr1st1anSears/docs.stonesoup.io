@@ -12,7 +12,7 @@ You can use {ProductName} to enable continuous integration and continuous develo
 
 {ProductName} is the “upstream” project for Red Hat Trusted Application Pipeline, which is an enterprise-ready version of {ProductName}. Both projects are in their early days, so their differences are currently negligible.
 
-== These documents
+== Why use these documents?
 
 You can use these documents for two basic purposes:
 
